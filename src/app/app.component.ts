@@ -1,3 +1,4 @@
+import { Page3 } from './../pages/page3/page3';
 import { Page2 } from './../pages/page2/page2';
 import { Page1 } from './../pages/page1/page1';
 import { Component, ViewChild } from '@angular/core';
@@ -25,7 +26,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Fun', component: Page1 },
-      { title: 'DIY', component: Page2 }
+      { title: 'DIY', component: Page2 },
+      { title: 'Goals', component: Page3}
     ];
 
   }
